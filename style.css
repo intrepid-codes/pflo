@@ -179,6 +179,7 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     height: 100%;
     width: 100%;
+    z-index: 4 !important;
 }
 #heading{
     padding: 0rem 4rem;
