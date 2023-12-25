@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;400;500;600;800&display=swap');
+@font-face{
+    src: url('https://asynchronousjavascriptor.github.io/pflo/fonts/Shaloems.ttf');
+    font-family: 'Shaloems';
+}
+body::-webkit-scrollbar{
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #999;
+    border-radius: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Urbanist;
+    font-weight: 500;
+}
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+#brand{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#brand h1{
+    font-size: 1.2rem;
+}
+#brand h1 b{
+    font-weight: 800;
+}
+#brand button{
+    background-color: #8ED7EE;
+    border: none;
+    padding: .4rem 2rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-weight: 900;
+    -webkit-box-shadow: 0 5px 40px 3px #8ed8eebe;
+            box-shadow: 0 5px 40px 3px #8ed8eebe;
+}
+#main nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.8rem;
+}
+#main nav ul li{
+    font-weight: 600;
+}
+#main nav ul li a{
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+#main nav ul li a i{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    margin: 0rem .6rem 0rem 0rem;
+}
+.active{
+    color: #8ED7EE !important;
+}
+.gitbtn{
+    color: #000 !important;
+}
+#page1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+    z-index: -1;
+}
+#portfolio-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+}
+#portfolio-content h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 4rem;
+}
+.cursive{
+    font-family: Shaloems;
+    font-weight: 500;
+    font-size: 6rem;
+    color: #ef6a93;
+}
+#portfolio-content img{
+    height: 4rem;
+}
+#btns a img{
+    height: 3rem;
+    margin: 0rem .8rem;
+}
+#page2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+}
+#page2 img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+#dimsgrid{
+    display: flex;
+}
+#dimsbox{
+    height: 12rem;
+    width: 20rem;
+    background-color: red;
+    margin: 0rem 1rem;
+}
+#dimsbox img{
+    object-fit: cover;
+    object-position: center;
+    height: 6rem;
+}
+#page3{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 5rem 0rem;
+    z-index: -1;
+}
+#images{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+#images img{
+    height: 4rem;
+}
+#startimg1, #startimg2, #startimg3{
+    height: 200px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#startimg3>img{
+    height: 3rem !important;
+}
+#startimg2{
+    -webkit-box-shadow: 0 10px 40px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 40px 5px rgba(0,0,0,0.05);
+}
+#page4{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#heading{
+    padding: 0rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+#line-heading{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#line-heading h3{
+    font-weight: 900;
+}
+#line{
+    height: .2rem;
+    width: 5rem;
+    background-color: #000;
+}
+#lines-heading h1{
+    font-weight: 900;
+    font-size: 5rem;
+}
+#ido-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ido-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    gap: 1rem;
+}
+#ido-images img{
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1rem;
+}
+#img-button{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page5{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 4rem 0rem;
+    padding: 0rem 4rem;
+    z-index: -1;
+}
+#designs, #devlopment{
+    margin: 2rem 0rem;
+}
+#designs h1, #devlopment h1{
+    font-weight: 900;
+}
+#designs-container, #devlopment-container{
+    height: 150px;
+    width: 800px;
+    background-color: #F6F6F6;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+}
+#designs-container img, #devlopment-container img{
+    height: 5rem;
+    padding: 1rem;
+}
+#page6{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#heading-boring{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0rem;
+    padding: 0rem 4rem;
+}
+#heading-boring h2{
+    font-weight: 900;
+    font-size: 3rem;
+}
+#heading-boring h1{
+    font-weight: 900;
+    line-height: 10rem;
+    font-size: 12rem;
+    text-align: start;
+}
+#heading-boring img{
+    height: 4rem;
+    width: 4rem;
+}
+#flex-boring{
+    display: flex;
+    align-items: center;
+}
+#video-aboutme{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-items: center;
+    justify-content: center;
+}
+#video-port{
+    border-radius: 1rem;
+}
+#page7{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 4rem 0rem;
+    padding: 0rem 4rem;
+    z-index: -1;
+}
+#page7 h1{
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#page7 #aboutme-btn{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+#aboutme-btn button{
+    border: none;
+    padding: 1rem 2rem;
+    background-color: #0eb152;
+    border-radius: 2rem;
+    -webkit-box-shadow: 0 4px 20px rgba(72, 148, 110, 0.486);
+    box-shadow: 0 4px 20px rgba(72, 148, 110, 0.486);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+#aboutme-btn button h5{
+    font-weight: 900;
+}
+#aboutme-btn button #about-circle{
+    height: .5rem;
+    width: .5rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#portfolio-badge-text{
+    text-align: center;
+    font-weight: 900;
+}
+#text-last{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#text-last h1{
+    font-family: Shaloems;
+    font-weight: 900;
+    font-size: 8rem;
+    color: #8ED7EE;
+}
+#footer{
+    text-align: center;
+    font-weight: 900;
+}
+#footer img{
+    height: 4rem;
+}
+#line-nav-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 1.4rem;
+    width: 3.8rem;
+    display: none;
+}
+#line1{
+    height: .2rem;
+    width: 3.8rem;
+    border-radius: 5px;
+    background-color: #000;
+}
+#line2{
+    height: .2rem;
+    width: 3.8rem;
+    background-color: #000;
+    border-radius: 5px;
+}
+#glow1{
+    position: fixed;
+    right: 0%;
+    bottom: 50%;
+    width: 60px;
+    height: 60px;
+    opacity: .3;
+    background-color: rebeccapurple;
+    -webkit-filter: blur(25px) saturate(10);
+    filter: blur(25px) saturate(10);
+}
+#glow2{
+    position: fixed;
+    left: 2%;
+    bottom: 70%;
+    width: 60px;
+    height: 60px;
+    opacity: .4;
+    -webkit-filter: blur(35px) saturate(10);
+            filter: blur(35px) saturate(10);
+    background-color: rgb(255, 194, 114);
+}
+@media (max-width:940px) {
+    html, body{
+        font-size: 62.5%;
+    }
+    #main nav{
+        padding: 0rem 3rem;
+        position: fixed;
+        height: 8rem;
+        background-color: #fff;
+        -webkit-box-shadow: 0 10px 40px 5px rgba(0,0,0,0.05);
+        box-shadow: 0 10px 40px 5px rgba(0,0,0,0.05);
+    }
+    #main nav ul{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 80px;
+        background-color: #000;
+        color: #000;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all .3s ease-in-out;
+        text-transform: uppercase;
+    }
+    #main nav ul li{
+        color: #000;
+        font-size: 2rem;
+        color: #fff;
+    }
+    #main nav ul li a{
+        color: #000;
+        color: #fff;
+    }
+    #page1{
+        margin-top: 14rem;
+    }
+    #btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    #images{
+        flex-direction: column;
+    }
+    #ido-images{
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #ido-grid{
+        flex-direction: column;
+    }
+    #img-button img{
+        height: 5rem;
+        margin: 3rem;
+    }
+    #line-nav-menu{
+        display: inline-flex;
+        cursor: pointer;
+    }
+    #heading-boring h1{
+        font-size: 8rem;
+    }
+    #designs-container, #devlopment-container{
+        height: 100%;
+        width: 100%;
+        background-color: #F6F6F6;
+        margin: 1rem 0rem;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0rem 0rem;
+    }
+    #designs-container img, #devlopment-container img{
+        padding: 1.6rem;
+        display: flex;
+    }
+    #alag-content{
+        display: flex;
+    }
+    #portfolio-badge-text{
+        font-size: 1.6rem;
+        padding: 0rem 3rem;
+    }
+    #h1port{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0rem 4rem;
+    }
+    .cursive{
+        font-size: 10rem;
+    }
+    #br{
+        display: none;
+    }
+    .gitbtn{
+        color: #fff !important;
+    }
+}
