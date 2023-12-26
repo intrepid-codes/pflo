@@ -516,7 +516,7 @@ body::-webkit-scrollbar-thumb{
     .gitbtn{
         color: #fff !important;
     }
-    #page5, #page7, #page4{
-        padding: 0rem 0rem;
+    #page5, #page7{
+        padding: 0rem 2rem;
     }
 }
