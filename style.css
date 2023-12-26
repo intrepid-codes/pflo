@@ -31,7 +31,7 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     height: 100px;
     width: 100%;
-    z-index: 1;
+    z-index: 3;
 }
 #brand{
     display: flex;
@@ -179,7 +179,7 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     height: 100%;
     width: 100%;
-    z-index: 4 !important;
+    z-index: 1 !important;
 }
 #heading{
     padding: 0rem 4rem;
