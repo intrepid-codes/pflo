@@ -367,7 +367,6 @@ nav{
   opacity: .1;
   color: #fff;
   overflow: hidden;
-  transition: .3s;
 }
 #textAnimation div span:nth-child(2){
   width: fit-content;
