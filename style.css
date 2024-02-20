@@ -49,11 +49,12 @@ nav{
   background-color: #dadada;
 }
 #page4{
-  height: 100vh;
+  height: fit-content;
   width: 100vw;
   position: relative;
   background-color: #000;
   display: flex;
+  padding: 4vh 0rem;
   align-items: center;
   justify-content: start;
   color: #fff !important;
@@ -230,9 +231,10 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: .7rem 0rem 0rem 0rem;
+  padding: .5rem 0rem 0rem 0rem;
   font-family: Borel;
   font-weight: 800;
+  font-size: .6rem;
 }
 
 #ptopContent h4, #page2Wrapper h4{
@@ -346,7 +348,8 @@ nav{
   z-index: 5;
 }
 #p5Wrapper{
-  padding: 4vh 8vw;
+  padding: 4vh 6vw;
+  background-color: #000;
 }
 #textAnimation{
   width: fit-content;
@@ -359,10 +362,10 @@ nav{
 }
 #textAnimation div span{
   width: fit-content;
-  font-size: 4vh;
+  font-size: 7vh;
   white-space: nowrap;
   opacity: .1;
-  color: #000;
+  color: #fff;
   overflow: hidden;
   transition: .3s;
 }
@@ -373,7 +376,7 @@ nav{
   left: 0;
   opacity: 1;
   width: 0%;
-  color: #000;
+  color: #fff;
 }
 
 
