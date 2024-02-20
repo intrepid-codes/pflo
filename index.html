@@ -1,146 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | ANUJ Sharma</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-  <div id="main">
-    <nav>
-      <div id="brand">
-        <h1><b>ANUJ</b> Sharma</h1>
-        <button>Portfolio</button>
-      </div>
-      <label id="line-nav-menu" class="click">
-        <div id="line1"></div>
-        <div id="line2"></div>
-      </label>
-      <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="https://www.instagram.com/intrepid_codes?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==">Work Samples</a></li>
-        <li><a href="#">Download Resume</a></li>
-        <li><a href="https://github.com/intrepid-codes" class="gitbtn"><i class="fa-brands fa-github"></i> See GitHub</a></li>
-      </ul>
-    </nav>
-    <div id="glow1"></div>
-    <div id="glow2"></div>
-    <div id="page1">
-      <div id="portfolio-content">
-        <img src="https://asynchronousjavascriptor.github.io/pflo/images/badge.png" alt="portfolio-badge">
-        <h1 id="h1port"><span id="port1">I love to create </span><br id="br"><span class="cursive">"flawless"</span><span id="port3">products for Brands.</span></h1>
-        <div id="portfolio-badge-text">
-          I am a Designer/3D Artist/Developer from Lucknow, India. I love to create great website user experiences <br>
-& website designs for brands, other than that
-        </div>
-        <div id="btns">
-          <a href="https://www.instagram.com/intrepid_codes?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><img src="https://asynchronousjavascriptor.github.io/pflo/images/hibtn.png" alt=""></a>
-          <a href="#"><img src="https://asynchronousjavascriptor.github.io/pflo/images/resume%20btn.png" alt=""></a>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/intrepid-codes/testings/main/images/IMG_20240219_215710_112.jpg" type="image/x-icon" />
+    <title>ANUJ Sharma | Portfolio</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="loader">
+        <div id="portfolio">
+          Portfolio
         </div>
       </div>
-    </div>
-    <div id="page2">
-      <img src="https://asynchronousjavascriptor.github.io/pflo/images/main.png">
-    </div>
-    <div id="page3">
-      <div id="images">
-        <div id="startimg1">
-          <img src="https://asynchronousjavascriptor.github.io/pflo/images/2d.png" alt="">
-        </div>
-        <div id="startimg2">
-          <img src="https://asynchronousjavascriptor.github.io/pflo/images/3d.png" alt="">
-        </div>
-        <div id="startimg3">
-          <img src="https://asynchronousjavascriptor.github.io/pflo/images/codingdev.png" alt="">
-        </div>
-      </div>
-    </div>
-    <div id="page4">
-      <div id="heading">
-          <div id="line-heading">
-            <div id="line"></div>
-            <h3>What I Do</h3>
+      <div data-scroll-section id="page1">
+        <nav>
+          <div id="brand">
+            <img src="images/brand.png" alt="Brand" />
+            <img src="images/pflo.png" alt="pflo" />
           </div>
-          <div id="lines-heading"><h1>Work Samples</h1></div>
-          <div id="ido-grid">
-            <div id="ido-images">
-              <img src="https://asynchronousjavascriptor.github.io/pflo/images/smpl.jpg" alt="">
-              <img src="https://asynchronousjavascriptor.github.io/pflo/images/smpl2.jpg" alt="">
-              <img src="https://asynchronousjavascriptor.github.io/pflo/images/smpl4.jpg" alt="">
-              <img src="https://asynchronousjavascriptor.github.io/pflo/images/smpl5.jpg" alt="">
-            </div>
-            <div id="img-button">
-              <a href="https://www.instagram.com/intrepid_codes?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><img src="https://asynchronousjavascriptor.github.io/pflo/images/seemywork.png" alt=""></a>
-            </div>
+          <i id="icon" class="ri-menu-4-fill"></i>
+          <div id="nav-links">
+            <p>Menu</p>
+            <h4><a href="#">
+              <span>Home</span>
+              <span>Home</span>
+              </a>
+            </h4>
+            <h4><a href="#">
+              <span>Work</span>
+              <span>Work</span>
+            </a></h4>
+            <h4><a href="#">
+              <span>Resume</span>
+              <span>Resume</span>
+            </a></h4>
+            <h4><a href="#">
+              <span>GitHub</span>
+              <span>GitHub</span>
+            </a></h4>
+            <div id="icons">
+            <i class="ri-facebook-circle-fill"></i>
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-whatsapp-fill"></i>
           </div>
+          </div>
+        </nav>
+        <div id="portfolioContent">
+          <h1>Who The Fuck Is</h1>
+            <img id="animImg" src="images/main1.png" alt="Main Image" />
+        </div>
+        <div id="btmPure">
+          Web Animator | Designer | AsyncJS
+        </div>
       </div>
-    </div>
-    <div id="page5">
-      <div id="line-heading">
-        <div id="line"></div>
-        <h3>What I Am Good At</h3>
-      </div>
-      <div id="lines-heading"><h1>Skills And Interests</h1></div>
-      <div id="designs-devlopment">
-        <div id="designs">
-          <h1>Designing</h1>
-          <div id="designs-container">
+      <div data-scroll-section id="page5">
+        <div id="p5Wrapper">
+          <div id="textAnimation">
             <div>
-              <img src="https://p.kindpng.com/picc/s/343-3438417_maxon-cinema-4d-cinema-4d-hd-png-download.png" alt="">
+              <span>Heyy I'm ANUJ Sharma</span>
+              <span>Heyy I'm ANUJ Sharma</span>
             </div>
-            <div id="alag-content">
-              <img src="https://i.pinimg.com/originals/9c/ea/ba/9ceaba69b7a9f89158ff953107978f3e.png" alt="">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1200px-Adobe_Illustrator_CC_icon.svg.png" alt="">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/1200px-Adobe_After_Effects_CC_icon.svg.png" alt="">
-              <img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_83efad55ec5284e0bf4733bcddba2ea8/arnold.png" alt="">  
+          </div>
+          <div id="textAnimation">
+            <div>
+              <span>Good Frontent Devloper</span>
+              <span>Good Frontent Devloper</span>
             </div>
-            <div></div>
+          </div>
+          <div id="textAnimation">
+            <div>
+              <span>Eye Catching Designer</span>
+              <span>Eye Catching Designer</span>
+            </div>
+          </div>
+          <div id="textAnimation">
+            <div>
+              <span>Love's Everything About JS</span>
+              <span>Love's Everything About JS</span>
+            </div>
           </div>
         </div>
-        <div id="devlopment">
-          <h1>Devlopment</h1>
-          <div id="devlopment-container">
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="">
-            <img src="https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png" alt="">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="">
-            <img src="data:image/png;base64,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" alt="">
-            <img src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" alt="">
-            <img src="https://stalwartlearning.com/wp-content/uploads/2019/06/Mern-Stack-Program.png" alt="">
+      </div>
+      <div data-scroll-section id="page2">
+        <div id="ptopContent">
+          <div class="pText">
+            <h1><div>
+              <span>Things</span>
+            </div> <div>
+              <span>I'm</span>
+            </div></h1>
+            <h1><div>
+              <span>Good</span>
+            </div> <div>
+              <span>At</span>
+            </div></h1>
+          <h4>Skills, Intrest, Passion And Hobbies</h4>
+          </div>
+          <div id="devlopment">
+            <div id="dev">
+              <h3>Development</h3>
+            </div>
+              <div id="imagesDev">
+                <img src="https://saarthack.github.io/portfolio/images/html-min.webp" alt="" />
+                <img src="https://saarthack.github.io/portfolio/images/css-min.webp" alt="" />
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png" alt="" />
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-tailwind-css-5285308-4406745.png?f=webp" alt="" />
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-php-99-1175127.png" alt="" />
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-redux-3629018-3030243.png" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUFreEJXUF1iCptPOZbGJjgyDnC74pI4msVA&usqp=CAU" alt="" />
+                <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-github-2-5645861-4695719.png?f=webp" alt="" />
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-logo-1889531-1597591.png" alt="" />
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-mysql-3521596-2945040.png" alt="" />
+                <img src="https://saarthack.github.io/portfolio/images/gsap-min.webp" alt="" />
+                <img src="https://saarthack.github.io/portfolio/images/mongodb-min.webp" alt="" />
+              </div>
+            <div id="des">
+              <h3>Designing</h3>
+            </div>
+              <div id="imagesDev">
+                <img src="https://saarthack.github.io/portfolio/images/xd-min_1.webp" alt="" />
+                <img src="https://saarthack.github.io/portfolio/images/ps-min.webp" alt="" />
+                <img src="https://saarthack.github.io/portfolio/images/premierepro-min.png" alt="" />
+                <img src="https://saarthack.github.io/portfolio/images/illus.png" alt="" />
+                <img src="https://saarthack.github.io/portfolio/images/studio-min.webp" alt="" />
+                <img src="https://saarthack.github.io/portfolio/images/figma-min.webp" alt="" />
+              </div>
+          </div>
+        </div>
+      </div>
+      <div data-scroll-section id="page3">
+        <div id="page2Wrapper">
+          <div class="pText2">
+            <h1><div>
+              <span>Things</span>
+            </div> <div>
+              <span>I've</span>
+            </div></h1>
+            <h1><div>
+              <span>Crafted</span>
+            </div> <div>
+              <span>With</span>
+            </div> <div>
+              <span>Love</span>
+            </div></h1>
+          <h4>Work, Awwwarded Websites</h4>
+          </div>
+          <div id="imgContainer">
+            <img src="https://raw.githubusercontent.com/intrepid-codes/testings/main/images/Intrepid%20_%20Portfolio.png" alt="" />
+            <img src="https://raw.githubusercontent.com/intrepid-codes/testings/main/images/Intrepid%20_%20Login%20-%20Signup.png" alt="" />
+            <img src="https://raw.githubusercontent.com/intrepid-codes/testings/main/images/PriChat%20_%20Coolest%20Chatting%20Platform%20In%20India.png" alt="" />
+            <img src="https://raw.githubusercontent.com/intrepid-codes/testings/main/images/IMG_20240219_215710_112.jpg" alt="ANUJ Sharma" />
+          </div>
+        </div>
+      </div>
+      <div data-scroll-section id="page4">
+        <div id="page2Wrapper">
+          <div class="pText3">
+            <h1><div>
+              <span>You</span>
+            </div> <div>
+              <span>Can</span>
+            </div></h1>
+            <h1><div>
+              <span>Get</span>
+            </div> <div>
+              <span>In</span>
+            </div> <div>
+              <span>Touch</span>
+            </div></h1>
+            <h1><div>
+              <span>With</span>
+            </div> <div>
+              <span>Me</span>
+            </div> <div>
+              <span>Via</span>
+            </div></h1>
+          <h4>Get In Touch With Me.</h4>
+          </div>
+          <div id="workDiv">
+            <div id="cAnimate">
+              <span>Instagram</span>
+              <span>Instagram</span>
+            </div>
+            <div id="cAnimate">
+              <span>Facebook</span>
+              <span>Facebook</span>
+            </div>
+            <div id="cAnimate">
+              <span>Whatsapp</span>
+              <span>Whatsapp</span>
+            </div>
+            <div id="cAnimate">
+              <span>Twitter</span>
+              <span>Twitter</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div id="page6">
-      <div id="heading-boring">
-        <h2>Not So</h2>
-        <h1>Boring</h1>
-        <div id="flex-boring">
-          <h2>about me section</h2>
-          <img src="https://asynchronousjavascriptor.github.io/pflo/images/msgLogo0001.png" alt="">
-        </div>
-      </div>
-      <div id="video-port">
-        <video src="https://cdn.cuberto.com/cb/showreel/1.mp4" id="video-aboutme" autoplay muted loop></video>
-      </div>
-    </div>
-    <div id="page7">
-      <div id="class-collab">
-        <h1>Let's work together, and create something <br>
-          really amazing.</h1>
-        <div id="aboutme-btn">
-          <button><div id="about-circle"></div><h5>Contact Me, I'm available for work</h5></button>
-        </div>
-      </div>
-      <div id="text-last">
-        <h1>Collab <br>With Us</h1>
-      </div>
-      <div id="footer">
-        Created With <img src="https://cdn3d.iconscout.com/3d/premium/thumb/heart-4301737-3580490.png" alt=""> By Me
-      </div>
-    </div>
-  </div>
-</body>
-<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script  type="text/javascript"  src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
 </html>
