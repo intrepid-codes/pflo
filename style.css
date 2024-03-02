@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
-@font-face{
-  font-family: Gil;
-  src: ('https://github.com/intrepid-codes/testings/blob/main/Gilroy-Black.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Gil;
+  font-family: Urbanist;
+  font-weight: 900;
 }
 html, body{
   height: 100%;
